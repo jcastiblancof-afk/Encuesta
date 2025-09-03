@@ -1,0 +1,69 @@
+#1. Ejercicio:
+print ("hola ya se escribir frases")
+#2. Ejercicio:
+print (273)
+#3. Ejercicio:
+print (5.3)
+#1.2.Operaciones básicas y bucles:
+#4. Ejercicio:
+print (1234 + 532)
+#5. Ejercicio:
+print (1234 - 532)
+#6. Ejercicio:
+print (1234 * 532)
+#7. Ejercicio:
+print (1234 / 532)
+#8. Ejercicio:
+for i in range (1,4) :
+    print (i)
+#9. Ejercicio:
+for i in range (1,10) : 
+    print (i)
+#10. Ejercicio:
+for i in (1,10001) :
+    print (i)
+#11. Ejercicio:
+for i in (5,11) :
+    print (i)
+#12. Ejercicio:
+for i in (5,16) :
+    print (i)
+#13. Ejercicio:
+for i in range (5, 15001):
+    print (i)
+#14. Ejercicio:
+for i in range (200):
+    print ("hola ")
+#15. Ejercicio:
+for numero in range (1,31):
+    cuadrado= numero ** 2
+    print (f"el cuadrado de {numero} es igual a : {cuadrado}")
+#16. Ejercicio:
+def calcular_factorial_for(n):
+    if n < 0:
+        return "El factorial no está definido para números negativos"
+    elif n == 0:
+        return 1
+    else:
+        factorial = 1
+        for i in range(1, n + 1):
+            factorial = factorial * i
+        return factorial
+
+numero = 20
+print(f"El factorial de {numero} es {calcular_factorial_for(numero)}")
+#17. Ejercicio:
+suma_de_cuadrados=0
+for numero in range (1,101):
+    suma_de_cuadrados+= numero ** 2
+    print (f"la suma de los cuadrados es:{suma_de_cuadrados}")
+#18. Ejercicio:
+numero= int(input("ingrese un numero entero para sumar los 100 numerpos siguientes:"))
+suma=0
+for i in range (numero+1, numero+101):
+    suma += i 
+    print (f"la suma de los 100 numeros siguientes a {numero} es:", suma)
+
+
+
+
